@@ -38,11 +38,11 @@ h1,h2,h3
 }
 ul
 {
-	list-style-image: url("F:\\Udemy html css\\Working+Files\\Working Files\\Website Project\\images\\tiny-coffee-cup.gif");
+	list-style-image: url("tiny-coffee-cup.gif");
 }
 header
 {
-	background-image: url("F:\\Udemy html css\\Working+Files\\Working Files\\Website Project\\images\\coffee-beans.jpg");
+	background-image: url("coffee-beans.jpg");
 	height: 100px ; 
 	position: sticky  ; 
 
