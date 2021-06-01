@@ -1,0 +1,177 @@
+body
+{
+	font-family: 'Itim', cursive;
+	background-color: silver ; 
+	margin: 0 auto ; 
+	width: 960px ; 
+}
+
+.flex-1
+{
+
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;	
+	flex-wrap: nowrap;
+
+}
+.img1
+{
+	flex: 2 2 150px ;
+}
+.img2
+{
+	flex: 1 1 150px ;
+}
+.img3
+{
+	flex: 1 2 150px ;
+}
+.img4
+{
+	flex: 1 1 100px ;
+}
+h1,h2,h3
+{
+	color:red;
+}
+ul
+{
+	list-style-image: url("F:\\Udemy html css\\Working+Files\\Working Files\\Website Project\\images\\tiny-coffee-cup.gif");
+}
+header
+{
+	background-image: url("F:\\Udemy html css\\Working+Files\\Working Files\\Website Project\\images\\coffee-beans.jpg");
+	height: 100px ; 
+	position: sticky  ; 
+
+
+}
+nav a:link 
+{
+	background: linear-gradient(45deg , red, yellow , orange) ;
+	color: darkgreen ;
+	width: 100px ; 
+	display: inline-block;
+	text-align: center;
+	
+
+
+}
+nav a:visited
+{
+	color:black ;
+}
+
+nav a:hover
+{
+
+	background: repeating-linear-gradient(45deg,yellow 40px,lime 40px) ;
+	color : white ;
+
+}
+a:hover
+{
+	transform: scale(1.5);
+	transform: skewX(-12deg);
+	transform: skewY(-10deg);
+}
+nav ul
+{
+	list-style-type: none ; 
+}
+nav li
+{
+	display: inline;
+}
+aside
+{
+	float: right;
+	padding: 0px  ; 
+	margin-left: 10px ;
+	margin-top: 100px ;  
+	width: 200px ; 
+	background-color: tan ; 
+	text-align: center;
+	font-weight: bold ; 
+	clear: both;
+}
+label
+{
+	text-align: left;
+	display: block;
+	margin:10px;
+}
+table
+{
+	border:1px solid red ;
+	width: 1100px  ; 
+	
+}
+th,td
+{
+	border-spacing: 10px;
+	color: blue ;
+	border:1px solid red ;
+	width: 10%; 
+	height: 10px ; 
+	padding: 5px ; 
+	text-align: center;
+	vertical-align: right ; 
+}
+video
+{
+	align-content: center;
+	margin-bottom: 10px ; 
+}
+.heart
+{
+	background-color: red ; 
+	width: 50px ; 
+	height: 50px ; 
+	position: relative; 
+	left: 30px ; 
+	margin-left: 10px ;
+	transform: rotate(-45deg);
+}
+.heart::before
+{
+	content: "" ; 
+	background-color:red; 
+	width: 50px ; height: 50px ; border-radius: 50% ;
+	position: absolute;
+	top: -25px ; 
+	left: 0px ;
+	
+}
+.heart::after
+{
+	content: "" ; 
+	background-color: red ;
+	width: 50px ; height: 50px ; border-radius: 50% ;
+	position: absolute;
+	top: 0px ; 
+	left: 25px ;
+	
+}
+.sjad
+{
+	box-shadow: 0px 0px 5px 5px teal ;
+	animation-name: quote ; 
+	animation-duration: 5s ; 
+	position: relative; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes quote 
+{
+0%{background-color: #d0dD0d ; top:20px;}
+33.33%{background-color: #dBdDad ; right: 20px}
+66.66%{background-color: #c0aDcd ; top:0px;}
+100%{background-color: #e0ED07 ; right: 0px ;}
+}
+body
+{
+	line-height: 20px ; 
+}

@@ -1,0 +1,248 @@
+.top-level-header
+{
+	background-color: gray ; 
+	height: 45px ; 
+	margin:-15px ;
+display: grid;
+grid-template-columns: 2fr 5fr ;
+
+position: sticky;
+
+ 
+
+
+}
+*
+{
+	box-sizing: border-box;
+}
+.headbody
+{
+	
+	background-color: 	#A9A9A9 ; 
+	animation-name: bodyanime ; 
+	animation-duration: 5s ; 
+	animation-iteration-count: infinite;
+	height: 100% ; 
+	width: 100%  ; 
+}
+@keyframes bodyanime
+{
+	0% {background-color:#A9A9A9 ;  }
+	20% { background-color:orange ; }
+	40%{ background-color:gold ; }
+	60%{background-color: lightgreen;}
+	80%{ background-color:powderblue; }
+	100%{background-color: silver ; }
+
+
+
+}
+
+.menu-box
+{
+	
+		/* margin-left: 500px ; */
+		
+		
+		
+
+}
+.menu-class
+{
+	background : linear-gradient(45deg,yellow,cyan) ; 
+	
+}
+.menu-class:hover
+{
+	background : linear-gradient(60deg,orange,purple) ; 
+}
+nav a:link
+{
+text-decoration: none;
+font-size: 100% ;
+ 
+font-weight: bold;
+}
+nav a:hover
+{
+	color: white ;
+}
+@media (min-width: 800px)
+{
+	.nameback
+	{
+		width: 100%  ; 
+		height: 100% ;
+		background-image: url("51.jpg");
+	}
+	.menu-box
+	{
+		margin-left: 35% ; 
+	}
+	nav li
+	{
+		width: 20%  ; 
+	}
+	.nameanime
+	{
+		font-size: 60px ;
+	}
+}
+@media ( (min-width: 500px) and (max-width: 799px))
+{
+	.nameback
+	{
+		width: 100% ;
+		height: 100% ;
+
+	}
+	
+		.menu-box
+	{
+		margin-left: 30% ; 
+	}
+	.nameanime
+	{
+		font-size: 20px ;
+		font-weight: bold;
+	}
+}
+
+nav li
+{
+
+	display: inline-block;
+	
+	margin-top: -15px; 
+	height: 30px ;
+	border:1px solid black; 
+}
+
+.nameback
+{
+	
+	position: absolute;
+	top: 60px ; 
+	width: 100%; 
+    height: 100%;
+	margin-top: -20px ;
+}
+
+.nameanime
+{
+	
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	animation-name: name ; 
+	animation-duration: 2s ; 
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 5 ; 
+	animation-direction: alternate;
+
+}
+.nameanime:hover
+{
+	animation-play-state: paused;
+}
+@keyframes name 
+{
+	0%
+	{
+      top: 20% ; 
+	}
+	33%
+	{
+		top: 30% ; 
+	}
+	66%
+	{
+		top: 40% ;
+	}
+	100%
+	{
+		top: 45% ; 
+	}
+}
+#md
+{
+	width: 8.5% ;
+		color: black;
+	position: absolute;
+	left: 13%;
+
+	text-align: center;	
+	
+}
+
+#md1
+{
+	width: 18%;
+			color: black;
+	position: absolute;
+	left: 32% ;
+	text-align: center;	
+	
+	
+}
+#md2
+{
+	width: 17%;
+			color: black;
+	position: absolute;
+	left: 54%;
+	
+	text-align: center;	
+}
+#md3
+{
+	width: 17% ;
+	
+	position: absolute;
+	left: 76% ;
+		color: black;
+	text-align: center;	
+}
+.infocol
+{
+	position: absolute;
+	top: 1300px ; 
+	margin-left: 20%;
+	
+}
+
+.infocol
+{
+	
+	display: grid;
+
+	grid-template-columns:repeat(5,1fr); 
+	grid-template-rows: 1fr 2fr; 
+	grid-column-gap: 20px;
+	justify-content: center;
+	align-content: center;
+
+}
+.imgcenter
+{
+	display: block; 
+	margin-right: auto ; 
+	margin-left: auto;
+}
+#about
+{
+	text-align: justify;
+	font-size: 18px; 
+	font-family: sans-serif;
+	position: absolute;
+	top: 750px; 
+	margin:15px;
+	line-height: 25px; 
+}
+
+
+
+
+
+
+

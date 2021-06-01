@@ -1,0 +1,24 @@
+.first
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	
+	background-color: #CCFFCC; 
+}
+.second
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px; 
+	background-color: #CCFFCC ; 
+}
+.maingrid
+{
+	margin-top: 50px ; 
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: 200px ; 
+	border: 2px solid black;
+	grid-column-gap: 5px ; 
+}
